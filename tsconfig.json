@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // Disposition des fichiers
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // Environnement
+    "module": "nodenext",
+    "target": "esnext",
+    "types": [],
+
+    // Décorateurs (exercices 4 et 5)
+    "experimentalDecorators": true,
+
+    // Vérification stricte
+    "strict": true,
+
+    // Recommandé
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
